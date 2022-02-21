@@ -55,7 +55,6 @@ span {
     height: 70px;
     width: 70px;
     font-size: 2rem;
-    overflow: hidden;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 100%;
 }
@@ -71,7 +70,7 @@ span {
 
 #brand {
     height: 60px;
-    width: 70px;
+    width: auto;
     margin-left: 4px;
 }
 
