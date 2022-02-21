@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Junge&display=swap');
+
+body {
+    background-color: #dbdbdb;
+    color: white;
+}
+
+h1 {
+    font-family: 'Junge', serif;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #850000;
+}
+
+hr {
+    height: 20px !important;
+    background-color: rgb(0, 0, 0);
+    opacity: 1 !important;
+}
+
+nav,
+.nav,
+span {
+    border-radius: 15px;
+}
+
+nav,
+.nav {
+    background-color: #020000;
+}
+
+span {
+    background-color: rgba(0, 0, 0, 0);
+    color: #000000;
+}
+
+.card,
+.btn-primary {
+    background-color: #6d0101;
+}
+
+.btn-primary {
+    border: 0;
+    font-family: 'Junge', serif;
+    font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+    background-color: #000000;
+}
+
+.redes {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    height: 70px;
+    width: 70px;
+    font-size: 2rem;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 100%;
+}
+
+.redes ion-icon {
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.redes:hover {
+    color: white;
+}
+
+#brand {
+    height: 60px;
+    width: 70px;
+    margin-left: 4px;
+}
+
+.navbar-brand {
+    margin-top: -15px;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 320px) {}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+    .card img {
+        width: 30%;
+        height: 55%;
+    }
+}
